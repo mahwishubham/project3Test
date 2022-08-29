@@ -12,8 +12,7 @@ import org.testng.annotations.BeforeMethod;
 
 import java.time.Duration;
 
-@CucumberOptions(glue="com.revmo.steps", features={"src/test/resources/login.feature"})
-//        , "/src/test/resources/employee.feature",
+@CucumberOptions(glue="com.revmo.steps", features={"src/test/resources/login.feature", "/src/test/resources/employee.feature"})
 //        "/src/test/resources/userpage.feature", "/src/test/resources/accounts.feature"})
 //        , "/src/test/resources/EditUsersInfo.feature"})
 //        plugin ={"pretty"})
