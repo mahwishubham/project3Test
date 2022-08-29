@@ -14,8 +14,7 @@ import java.time.Duration;
 
 @CucumberOptions(glue="com.revmo.steps", features={"src/test/resources/login.feature", "src/test/resources/employee.feature",
         "src/test/resources/userpage.feature", "src/test/resources/accounts.feature", "src/test/resources/editUsersInfo.feature"},
-        plugin ={"pretty"})
-//                , "html: results/html", "json:results/json/results.json", "junit:results/junit/cucumber.xml"} )
+        plugin ={"pretty", "html: results/html", "json:results/json/results.json", "junit:results/junit/cucumber.xml"} )
 public class TestRunner extends AbstractTestNGCucumberTests {
 
     public static WebDriver driver;
