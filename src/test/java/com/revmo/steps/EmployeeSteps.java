@@ -109,7 +109,7 @@ public class EmployeeSteps {
 
     @Then("a new account should appear")
     public void aNewAccountShouldAppear() throws InterruptedException {
-        Thread.sleep(500);
+        Thread.sleep(800);
         int actual = employeePage.getNumberOfRowsOfAccounts();
         int expected = employeePage.getOriginalOfRowsOfAccounts() + 1;
         Assert.assertEquals(actual, expected);
