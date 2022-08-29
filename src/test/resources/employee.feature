@@ -60,21 +60,21 @@ Feature: Employee
     Given that I login as an employee
     When I click on logout on employee page
     Then I should be redirected to the index.html
-
-    Scenario: Access Trx information for an certain account
-      Given that I login as an employee
-      When I type in a valid email of "jd80@a.ca" into set active user
-      And I click on the search button in the form set active user
-      And I click on the first account
-      And I click back
-      Then I should be at the original table on employees
-
-Scenario: Transfer money for user
-  Given that I login as an employee
-  When I type in a valid email of "jd80@a.ca" into set active user
-  And I click on the search button in the form set active user
-  And I select the first account in the dropdown for sending id
-  And I select the second account in the dropdown for receiving id
-  And I type in a valid amount of "00.01" into amount for transfer between accounts
-  And I click the submit button fot transfer between accounts
-  Then both accounts will have a different balance
+#
+#    Scenario: Access Trx information for an certain account
+#      Given that I login as an employee
+#      When I type in a valid email of "jd80@a.ca" into set active user
+#      And I click on the search button in the form set active user
+#      And I click on the first account
+#      And I click back
+#      Then I should be at the original table on employees
+#
+#Scenario: Transfer money for user
+#  Given that I login as an employee
+#  When I type in a valid email of "jd80@a.ca" into set active user
+#  And I click on the search button in the form set active user
+#  And I select the first account in the dropdown for sending id
+#  And I select the second account in the dropdown for receiving id
+#  And I type in a valid amount of "00.01" into amount for transfer between accounts
+#  And I click the submit button fot transfer between accounts
+#  Then both accounts will have a different balance
