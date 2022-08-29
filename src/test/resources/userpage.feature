@@ -32,14 +32,14 @@ Feature: UserPage
     When I click on the pending transactions button
     Then I should be redirected to the pending-transactions.html
 
-  Scenario: Send valid amount of money to valid email
-    Given that I login as a user
-    When I scroll down to see send money
-    And I select the first account in send money
-    And I type in an email of "jd81@a.ca" into send email
-    And I type in a valid amount of "00.01" into send money
-    And I click on send money submit button
-    Then My first account should have less money
+#  Scenario: Send valid amount of money to valid email
+#    Given that I login as a user
+#    When I scroll down to see send money
+#    And I select the first account in send money
+#    And I type in an email of "jd81@a.ca" into send email
+#    And I type in a valid amount of "00.01" into send money
+#    And I click on send money submit button
+#    Then My first account should have less money
 
   Scenario: Request money from a valid email
     Given that I login as a user
