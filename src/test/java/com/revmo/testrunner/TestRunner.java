@@ -31,10 +31,10 @@ public static  String url = "http://ec2-18-188-40-149.us-east-2.compute.amazonaw
 
     }
 
-//    @AfterMethod
-//    public void tearDown() {
-//        driver.quit();
-//    }
-//
-//
+    @AfterMethod
+    public void tearDown() {
+        driver.quit();
+    }
+
+
 }
