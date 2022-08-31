@@ -49,11 +49,12 @@ public class LoginPage {
         wdw.until(ExpectedConditions.visibilityOf(passwordInput));
         passwordInput.sendKeys(password);
     }
-    public void clickLogin(){
+    public void clickLogin() throws InterruptedException {
         WebDriverWait wdw = new WebDriverWait(driver, Duration.ofSeconds(2));
 
         wdw.until(ExpectedConditions.elementToBeClickable(loginButton));
         loginButton.click();
+        Thread.sleep(500);
     }
     public void clickLoginRedirectButton(){
         WebDriverWait wdw = new WebDriverWait(driver, Duration.ofSeconds(2));
