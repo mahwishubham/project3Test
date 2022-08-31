@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="7.588">
+<testcase classname="Login" name="Valid user login" time="0.531">
+<system-out><![CDATA[Given I am at the login page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Valid user login 2" time="0.514">
+<system-out><![CDATA[Given I am at the login page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Valid user login 3" time="0.495">
+<system-out><![CDATA[Given I am at the login page................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
