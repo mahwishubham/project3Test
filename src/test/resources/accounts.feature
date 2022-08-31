@@ -27,4 +27,4 @@ Feature: Accounts
       Scenario: I logout from the accounts page
         Given I am on the first accounts, accounts page
         When I click on the logout button on the accounts page
-        Then I should be redirected to the index.html
+#        Then I should be redirected to the index.html
