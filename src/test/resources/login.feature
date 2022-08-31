@@ -6,7 +6,7 @@ Feature: Login
     When I type in a username "<username>"
     And I type in a password "<password>"
     And I click on the login button on login page
-#    Then I should be redirected to the <page>
+    Then I should be redirected to the <page>
     Examples:
       |username |password|page        |
       |jd80@a.ca|Password123!|user-page.html |
