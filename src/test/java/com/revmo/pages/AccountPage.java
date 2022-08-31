@@ -109,14 +109,14 @@ public class AccountPage {
     }
 
     public void clickLogoutButton() throws InterruptedException {
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
         wdw.until(ExpectedConditions.visibilityOf(logoutButton));
         logoutButton.click();
 
     }
 
     public void clickUserPageButton() throws InterruptedException {
-        driver.manage().window().maximize();
+//        driver.manage().window().maximize();
         wdw.until(ExpectedConditions.visibilityOf(userPageButton));
         userPageButton.click();
     }
