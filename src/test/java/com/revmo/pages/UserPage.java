@@ -69,7 +69,7 @@ public class UserPage {
     @FindBy(id = "request-transfer-btn")
     private WebElement requestTransferSubmitButton;
 
-    @FindBy(id = "logout-btn")
+    @FindBy(xpath = "/html[1]/body[1]/nav[1]/div[2]/div[2]/div[1]/a[2]")
     private WebElement logoutButton;
 
     @FindBy(id = "my-account")
@@ -178,7 +178,7 @@ public class UserPage {
     public void clickLogoutButton() throws InterruptedException {
 //        driver.manage().window().maximize();
         Thread.sleep(500);
-        wdw.until(ExpectedConditions.visibilityOf(logoutButton));
+//        wdw.until(ExpectedConditions.visibilityOf(logoutButton));
         logoutButton.click();
     }
 
