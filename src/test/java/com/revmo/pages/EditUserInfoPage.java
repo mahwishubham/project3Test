@@ -71,7 +71,7 @@ public class EditUserInfoPage {
         return errorMessages.getText();
     }
     public void clickLogoutButton(){
-//        driver.manage().window().maximize();
+        driver.manage().window().maximize();
         wdw.until(ExpectedConditions.visibilityOf(logoutButton));
         logoutButton.click();
     }
