@@ -43,7 +43,7 @@ public class EditUserInfoPage {
     }
 
     public void typeFirstNameInput(String firstName) throws InterruptedException {
-        Thread.sleep(200);
+        Thread.sleep(400);
 
         firstNameInput.clear();
         firstNameInput.sendKeys(firstName);
