@@ -53,4 +53,4 @@ Feature: UserPage
   Scenario: I logout of my account from user-page
     Given that I login as a user
     When I click on the logout button on the user-page
-#    Then I should be redirected to the index.html
+    Then I should be redirected to the index.html

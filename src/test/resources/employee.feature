@@ -59,7 +59,7 @@ Feature: Employee
   Scenario: Logout from employee page
     Given that I login as an employee
     When I click on logout on employee page
-#    Then I should be redirected to the index.html
+    Then I should be redirected to the index.html
 
     Scenario: Access Trx information for an certain account
       Given that I login as an employee
