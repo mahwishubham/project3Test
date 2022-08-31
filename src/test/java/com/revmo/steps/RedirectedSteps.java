@@ -28,8 +28,8 @@ public class RedirectedSteps {
     }
     @Then("I should be redirected to the index.html")
     public void iShouldBeRedirectedToTheIndexHtml() throws InterruptedException {
-        Thread.sleep(500);
-    wdw.until(ExpectedConditions.urlContains("index.html"));
+        Thread.sleep(1000);
+//    wdw.until(ExpectedConditions.urlContains("index.html"));
         String actual = driver.getCurrentUrl();
         String expected = url + "/index.html";
         Assert.assertEquals(actual, expected);
