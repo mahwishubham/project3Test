@@ -3,9 +3,9 @@ Feature: Login
 
   Scenario Outline: Valid user login
     Given I am at the login page
-#    When I type in a username "<username>"
-#    And I type in a password "<password>"
-#    And I click on the login button on login page
+    When I type in a username "<username>"
+    And I type in a password "<password>"
+    And I click on the login button on login page
 #    Then I should be redirected to the <page>
     Examples:
       |username |password|page        |
