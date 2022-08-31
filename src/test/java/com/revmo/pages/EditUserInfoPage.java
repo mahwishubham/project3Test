@@ -29,7 +29,7 @@ public class EditUserInfoPage {
     @FindBy(id="error-msgs")
     private WebElement errorMessages;
 
-    @FindBy(id = "logout-btn")
+    @FindBy(xpath = "/html[1]/body[1]/nav[1]/div[2]/div[2]/div[1]/a[2]")
     private WebElement logoutButton;
 
     @FindBy(id = "my-account")

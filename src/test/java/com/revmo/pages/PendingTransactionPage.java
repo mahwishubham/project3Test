@@ -33,7 +33,7 @@ public class PendingTransactionPage {
     @FindBy(id = "my-account")
     private WebElement userPageButton;
 
-    @FindBy(id = "logut-btn")
+    @FindBy(xpath = "/html[1]/body[1]/nav[1]/div[2]/div[2]/div[1]/a[2]")
     private WebElement logoutButton;
 
     @FindBy(xpath = "/html[1]/body[1]/div[1]/div[2]/div[1]/h2[1]/span[1]")

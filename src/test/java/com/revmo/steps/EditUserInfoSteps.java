@@ -103,8 +103,10 @@ public class EditUserInfoSteps {
     }
 
     @When("I click on the logout button on the edit user info page")
-    public void iClickOnTheLogoutButtonOnTheEditUserInfoPage() {
+    public void iClickOnTheLogoutButtonOnTheEditUserInfoPage() throws InterruptedException {
         editUserInfoPage.clickLogoutButton();
+        Thread.sleep(200);
+
     }
 
     @When("I click on the User page button on the edit user info page")
